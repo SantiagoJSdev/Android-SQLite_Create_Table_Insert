@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
        // id.getText().toString();
         ConexionSqliteHelper conn=new ConexionSqliteHelper(this,"bd_usuarios",null,1);
         SQLiteDatabase db = conn.getWritableDatabase();
-
+        //linea
         ContentValues values = new ContentValues();
         values.put(Utilidades.CAMPO_ID, id);
         values.put(Utilidades.CAMPO_NOMBRE, id);
