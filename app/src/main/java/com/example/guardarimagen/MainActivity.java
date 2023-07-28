@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
             //File imagen= new File(directory, "fotox.png");
             File imagen= new File(directory,"foto.jpg");
-
+//nuew
             if(imagen.exists()){
                 Log.i("AQUI", "Existe archivo");
                 //Existe archivo
